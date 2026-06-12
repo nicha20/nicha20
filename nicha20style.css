@@ -1,34 +1,3 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="เว็บไซต์แสดงผลงานและทักษะของ Somchai">
-    <title>ความภาคภูมิใจของ SOMCHAI</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <!-- ส่วนหัวของเว็บ -->
-    <header>
-        <h1>สวัสดี! ผมคือ SOMCHAI</h1>
-        <p>นี่คือผลงานและความภาคภูมิใจของผม</p>
-    </header>
-
-    <!-- ส่วนเกี่ยวกับตัวเอง -->
-    <section id="about">
-        <h2>เกี่ยวกับผม</h2>
-        <p>ผมเป็นนักพัฒนาซอฟต์แวร์ที่มีความหลงใหลในการสร้างสรรค์สิ่งใหม่ ๆ ผมภูมิใจในผลงานและทักษะที่ผมพัฒนามาอย่างต่อเนื่อง</p>
-    </section>
-
-    <!-- ส่วนแสดงผลงาน -->
-    <section id="projects">
-        <h2>ผลงานของผม</h2>
-
-        <div class="project">
-            <h3>เว็บไซต์ Portfolio</h3>
-            <p>เว็บไซต์นี้เป็นหนึ่งในผลงานที่ผมสร้างขึ้นเพื่อแสดงความสามารถของผม</p>
-        </div>
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -76,10 +45,54 @@ section {
 
 section:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 30px rgba...
-        <div class="project">
-            <h3>...
-// เพิ่ม JavaScript สำหรับการโต้ตอบกับผู้ใช้ (Optional)
-document.addEventListener('DOMContentLoaded', function () {
-    console.log('Portfolio ของ SOMCHAI พร้อมแล้ว!');
-});
+    box-shadow: 0 0 30px rgba(255, 20, 147, 0.6);
+}
+
+h2 {
+    color: #ff1493;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin: 0 0 10px;
+    color: #ff69b4;
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(90deg, #ff1493, #ff69b4);
+    color: white;
+    margin-top: 20px;
+}
+
+/* Animation */
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeDown {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
