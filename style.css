@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, #d6f7ff, #aeefff, #c9f3ff, #e0fbff);
+    background: linear-gradient(-45deg, #d6f7ff, #a7e7ff, #cfefff, #e6fbff);
     background-size: 400% 400%;
     animation: bgMove 8s ease infinite;
     color: #2f3b45;
@@ -17,27 +17,35 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #8fdcf5, #6ecbe8);
+    background: linear-gradient(90deg, #7fd3ee, #4fbadf);
     color: white;
     padding: 20px 0;
     text-align: center;
     animation: fadeDown 1s ease;
 }
 
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: rgba(255, 255, 255, 0.92);
+    background: rgba(255, 255, 255, 0.95);
     border-radius: 12px;
-    box-shadow: 0 0 18px rgba(110, 203, 232, 0.25);
+    box-shadow: 0 0 20px rgba(79, 186, 223, 0.3);
     animation: fadeUp 1s ease;
     transition: all 0.3s ease;
 }
 
 section:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 25px rgba(110, 203, 232, 0.4);
+    box-shadow: 0 0 30px rgba(79, 186, 223, 0.5);
 }
 
 h2 {
@@ -48,10 +56,15 @@ h2 {
     color: #6ecbe8;
 }
 
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(90deg, #6ecbe8, #8fdcf5);
+    background: linear-gradient(90deg, #4fbadf, #7fd3ee);
     color: white;
     margin-top: 20px;
 }
