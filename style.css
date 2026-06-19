@@ -3,10 +3,10 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, #bdefff, #87ceeb, #a7e7ff, #c7f2ff);
+    background: linear-gradient(-45deg, #d6f7ff, #aeefff, #c9f3ff, #e0fbff);
     background-size: 400% 400%;
     animation: bgMove 8s ease infinite;
-    color: #333;
+    color: #2f3b45;
 }
 
 /* พื้นหลังเคลื่อนไหว */
@@ -17,59 +17,41 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #5bc0de, #4aa3d8);
+    background: linear-gradient(90deg, #8fdcf5, #6ecbe8);
     color: white;
     padding: 20px 0;
     text-align: center;
     animation: fadeDown 1s ease;
 }
 
-header h1 {
-    margin: 0;
-}
-
-header p {
-    margin: 5px 0 0;
-}
-
 section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: rgba(255, 255, 255, 0.95);
+    background: rgba(255, 255, 255, 0.92);
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(91, 192, 222, 0.3);
+    box-shadow: 0 0 18px rgba(110, 203, 232, 0.25);
     animation: fadeUp 1s ease;
     transition: all 0.3s ease;
 }
 
 section:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 30px rgba(74, 163, 216, 0.5);
+    box-shadow: 0 0 25px rgba(110, 203, 232, 0.4);
 }
 
 h2 {
-    color: #4aa3d8;
-}
-
-.project {
-    margin-bottom: 20px;
+    color: #4fbadf;
 }
 
 .project h3 {
-    margin: 0 0 10px;
-    color: #5bc0de;
-}
-
-ul {
-    list-style-type: square;
-    padding-left: 20px;
+    color: #6ecbe8;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(90deg, #4aa3d8, #5bc0de);
+    background: linear-gradient(90deg, #6ecbe8, #8fdcf5);
     color: white;
     margin-top: 20px;
 }
