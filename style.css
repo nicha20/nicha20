@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: linear-gradient(-45deg, #ff9ecf, #ff69b4, #ffc0cb, #ffb6c1);
+    background: linear-gradient(-45deg, #bdefff, #87ceeb, #a7e7ff, #c7f2ff);
     background-size: 400% 400%;
     animation: bgMove 8s ease infinite;
     color: #333;
@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #ff69b4, #ff1493);
+    background: linear-gradient(90deg, #5bc0de, #4aa3d8);
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -38,18 +38,18 @@ section {
     max-width: 800px;
     background: rgba(255, 255, 255, 0.95);
     border-radius: 12px;
-    box-shadow: 0 0 20px rgba(255, 105, 180, 0.4);
+    box-shadow: 0 0 20px rgba(91, 192, 222, 0.3);
     animation: fadeUp 1s ease;
     transition: all 0.3s ease;
 }
 
 section:hover {
     transform: scale(1.03);
-    box-shadow: 0 0 30px rgba(255, 20, 147, 0.6);
+    box-shadow: 0 0 30px rgba(74, 163, 216, 0.5);
 }
 
 h2 {
-    color: #ff1493;
+    color: #4aa3d8;
 }
 
 .project {
@@ -58,7 +58,7 @@ h2 {
 
 .project h3 {
     margin: 0 0 10px;
-    color: #ff69b4;
+    color: #5bc0de;
 }
 
 ul {
@@ -69,7 +69,7 @@ ul {
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(90deg, #ff1493, #ff69b4);
+    background: linear-gradient(90deg, #4aa3d8, #5bc0de);
     color: white;
     margin-top: 20px;
 }
